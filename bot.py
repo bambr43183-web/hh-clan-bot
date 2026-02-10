@@ -9,8 +9,8 @@ from aiogram.fsm.state import StatesGroup, State
 from aiogram.fsm.context import FSMContext
 
 # ================= НАСТРОЙКИ =================
-BOT_TOKEN = os.getenv("BOT_TOKEN")  # ваш токен через env
-ADMIN_CHAT_ID = int(os.getenv("ADMIN_CHAT_ID"))  # ID адмін чату
+BOT_TOKEN = os.getenv("8404813322:AAHW1xd6eoo2SduUTAkYJ1dFaEFlXxxgiR0")  # ваш токен через env
+ADMIN_CHAT_ID = int(os.getenv("-1002492131233"))  # ID адмін чату
 DB_NAME = "users.db"
 
 bot = Bot(token=BOT_TOKEN)
@@ -165,3 +165,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
